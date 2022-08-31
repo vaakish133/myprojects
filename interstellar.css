@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* video{
+    position:absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: auto; */
+    /* min-height: 80%;
+    min-width: 80%; */
+/* } */
+/* .background{ */
+    /* left: 100px; */
+/* } */
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+@font-face {
+    font-family: 'styleoftext';
+    src: url(./uni-sans/Uni\ Sans\ Thin.otf);
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(./lato/Lato-Semibold.ttf);
+}
+
+
+.one{
+    position: absolute;
+    color: white;
+    left: 850px;
+    width: 450px;
+    top: 250px;
+    font-family: 'styleoftext';
+    font-weight: lighter;
+    font-size:60%;
+    letter-spacing: 5px;
+    word-spacing: 5%;
+}
+
+.two{
+    position: absolute;
+    color: white;
+    left: 850px;
+    width: 450px;
+    top: 360px;
+    font-family: 'styleoftext';
+    font-weight: lighter;
+    font-size:60%;
+    letter-spacing: 5px;
+    word-spacing: 5%;
+}
+
+.three{
+    position:absolute;
+    color: white;
+    left: 850px;
+    width:450px ;
+    top: 510px;
+    font-family: 'styleoftext';
+    font-weight: lighter;
+    font-size:60%;
+    letter-spacing: 5px;
+    word-spacing: 5%;
+
+}
+
+.navigation{
+    position: absolute;
+    list-style-type: none;
+    top: 350px;
+    left: 670px;
+    z-index: 1001;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 50%;
+    font-weight: lighter;
+    font-family: 'styleoftext';
+    line-height: 50px;
+    letter-spacing: 5px;
+    word-spacing: 5%;
+    /* text-align: right; */
+}
+
+.booking{
+    position: absolute;
+    top: 331px;
+    left: 103px;
+    font-size: 50%;
+    font-weight: lighter;
+    color: white;
+    line-height: 10px;
+    letter-spacing: 5px;
+    font-family: 'styleoftext';
+    /* text-align: center; */
+}
+
+/* .firstopt{
+    display: inline-block;
+}
+.secondopt{
+    display: inline-block;
+} */
+
+
+
+.heading{
+    position:absolute;
+    color: white;
+    left: 850px;
+    top: 175px;
+    font-family: 'Lato';
+    font-weight:bolder;
+    letter-spacing: 5px;
+}
+
+.logo{
+    position:absolute;
+    color: white;
+    top: 50px;
+    left: 50px;
+    font-family: 'Lato';
+    font-weight: lighter;
+    letter-spacing: 15px;
+}
+
+.tagline{
+    position: absolute;
+    color: white;
+    left: 145px;
+    top: 35px;
+    font-family:'styleoftext';
+    font-size:55%;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    word-spacing: 5%;
+}
+
+
+.firstopt{
+    transition: all 0.5s;
+    transform: scale(1);
+}
+.firstopt:hover{
+    transform: scale(1.2);
+    filter: brightness(115%);
+}
+
+.secondopt{
+    transition: all 0.5s;
+    transform: scale(1);
+}
+.secondopt:hover{
+    transform: scale(1.2);
+    filter: brightness(115%);
+}
+
+.element{
+    position:absolute;
+    left: 690px;
+    top: 311px;
+    height: 190px;
+    transition: all 0.5s;
+    transform: scale(1);
+}
+
+.element:hover{
+    transform: scale(1.2);
+    filter: brightness(115%);
+}
+
+.element2{
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    height: 80px;;
+    transition: all 0.5s;
+    transform: scale(1);
+    
+}
+
+.element2:hover{
+    transform: scale(1.2);
+    filter: brightness(115%);
+
+}
+
+.bottom{
+    position: absolute;
+    color: white;
+    left: 600px;
+    top: 640px;
+    font-family:'styleoftext';
+    font-size:30%;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    word-spacing: 5%;
+}
+
+.social1{
+    position: absolute;
+    left: 45px;
+    top: 620px;
+    height: 20px;
+    transition: all 0.5s;
+    transform: scale(1);
+}
+
+.social2{
+    position: absolute;
+    left: 80px;
+    top: 620px;
+    height: 20px;
+    transition: all 0.5s;
+    transform: scale(1);
+}
+
+
+.social3{
+    position: absolute;
+    left: 110px;
+    top: 620px;
+    height: 20px;
+    transition: all 0.5s;
+    transform: scale(1);
+}
+
+/* .booking{
+    transition: all 0.5s;
+    transform: scale(1);
+}
+.booking:hover{
+    transform: scale(1.2);
+    filter: brightness(115%);
+} */
+
+
+
